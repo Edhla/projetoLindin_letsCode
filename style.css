@@ -1,0 +1,254 @@
+:root {
+    font-family: 'Rambla', sans-serif;
+}
+
+body {
+    background-color: #F3F2EE;
+}
+
+
+ /* CABEÇALHO */
+
+header {
+    width: 100vw;
+    height: 5.8vh;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 94vw;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    height: 4vh;
+}
+
+/* Lista da esquerda */
+
+.esquerda li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logoLinkedin {
+    height: 3.5vh;
+}
+
+#lupa {
+    width: 1.5vw;
+    margin-left: 2vw;
+    margin-right: 1.5vw;
+}
+
+#inputBuscador {
+    width: 20vw;
+    background-color: #EEF3F7;
+    border: none;
+
+}
+
+#buscador { 
+    height: 3.5vh;
+    width: 30vw;
+    background-color: #EEF3F7;;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+/* Lista da direita */
+.direita ul {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.direita li {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.direita label {
+    font-size: 0.6em;
+    margin-bottom: 0.5vw;
+}
+
+.icone {
+    height: 2vh;
+    margin-bottom: 0.5vh;
+}
+
+.direita li:hover {
+    filter: opacity(50%);
+}
+
+#iconePerfil img {
+    height: 2.5vh;
+    border-radius: 50%;
+}
+
+#iconePerfil {
+    margin-left: 1vw;
+}
+
+/* CORPO */
+
+#corpo {   
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#blocoPerfil {
+    width: 94vw;
+    max-width: 1440px;
+    background-color: #FFFFFF;
+    margin: 9.5vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#fotoFundo {
+    width: 94vw;
+    max-width: 1440px;
+    height: 8.5em;
+    object-fit: cover;
+}
+
+.perfilFoto{
+    position: relative;
+}
+
+#fotoPerfil {
+    height: 6.5em;
+    width: 6.5em;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(20%, 50%);
+}
+
+main {
+    padding: 2.6rem 1.3rem 0.9rem 1.3rem;
+}
+
+main h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
+
+main h2 {
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-bottom: 0.1rem;
+}
+
+main span {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #666666;
+}
+
+.painelBotao {
+    width: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 0 1.75rem 1.37rem;
+}
+
+.botao{
+    background-color: #FFFFFF;
+    border: 1px solid #666666;
+    border-radius: 15px;
+    font-size: 0.6em;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+}
+
+.botao:hover{
+    background-color: #c5c1c1;
+    border: 1.5px solid #666666;
+}
+
+#botaoInteresse {
+    border:none;
+    background-color: #0B65C2;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#botaoInteresse:hover {
+    background-color: #074b8f;
+}
+
+/* Bloco formações */
+
+#blocoFormacoes { 
+    width: 94vw;
+    max-width: 1440px;
+    background-color: #FFFFFF;
+    margin: 3.8vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocoPrincipal {
+    padding: 2vh 0 0.9vh 3vw;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.blocoPrincipal h2{
+    font-size: 0.87em;
+}
+
+.blocoSecundario img{
+    width: 2.5vw;
+}
+
+.blocoSecundario {
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 0.5vh;
+}
+
+.descricao {
+    width: 100vw;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.descricao h3{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.descricao p {
+    font-size: 0.8em;
+}
+
+.descricao span {
+    font-size: 0.7em;
+    color: #666666;
+}
+
+#estudoUm .descricao, #estudoDois .descricao {
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 2rem;
+}

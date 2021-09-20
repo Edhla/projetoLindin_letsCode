@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeiro projeto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="esquerda">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/feed/">
+                            <img src="./assets/linkedin 1.png" alt="Logo do linkedin" id="logoLinkedin">
+                        </a>
+                    </li>
+                    <li id="buscador">
+                        <label for="inputBuscador"> 
+                            <img id="lupa" src="./assets/loupe 1.png" alt="">
+                        </label>
+                        <input id="inputBuscador" type="text" placeholder="Pesquisar">
+                    </li>
+                </ul>
+            </section>
+            
+            <section class="direita">
+                <ul>
+                    <li id="iconeInicio">
+                        <label for="inicio">Início</label>
+                        <a id="inicio" href="https://www.linkedin.com/feed/">
+                            <img src="./assets/home-icon-silhouette.png" alt="logo de casa" class="icone">
+                        </a>
+                    </li>
+                    <li id="iconeMinhaRede">
+                        <label for="minhaRede">Minha rede</label>
+                        <a id="minhaRede" href="https://www.linkedin.com/mynetwork/">
+                            <img src="./assets/group-of-three-men-standing-side-by-side-hugging-each-other 1.png" alt="Logo de pessoas" class="icone">
+                        </a>
+                    </li>
+                    <li id="iconeVagas">
+                        <label for="vagas">vagas</label>
+                        <a id="vagas" href="https://www.linkedin.com/jobs/">
+                            <img src="./assets/portfolio 1.png" alt="Logo de bolsa" class="icone">
+                        </a>
+                    </li>
+                    <li id="iconeMensagens">
+                        <label for="mensagens">Mensagens</label>
+                        <a id="mensagens" href="#">
+                            <img src="./assets/chat 1.png" alt="Logo de um balão de fala" class="icone">
+                        </a>
+                    </li>
+                    <li id="iconeNotificacao">
+                        <label for="notificacao">Notificações</label>
+                        <a id="notificacao" href="#">
+                            <img src="./assets/bell 1.png" alt="Logo de um sino" class="icone">
+                        </a>
+                    </li>
+                    <li id="iconePerfil">
+                        <label for="meuPerfil">Eu</label>
+                        <a id="meuPerfil" href="https://www.linkedin.com/notifications/">
+                            <img src="./assets/foto-perfil-medio.png" alt="Foto do perfil" class="icone">
+                        </a>
+                    </li>
+                    
+                </ul>
+            </section>
+        </nav>
+    </header>
+    
+    <section id="corpo">
+        <article id="blocoPerfil">
+            <div class="perfilFoto">
+                <img 
+                    src="./assets/foto-perfil-grande.jpg" 
+                    alt="Sua foto de perfil" 
+                    id="fotoPerfil">
+                <img 
+                    id="fotoFundo" 
+                    src="./assets/foto-fundo.jpg" 
+                    alt="Foto de fundo">
+            </div>
+        
+            <main>
+                <h1>Edla Câmara</h1>
+                <h2>Desenvolvedor Front-end</h2>
+                <span>Recife, Pernambuco, Brasil</span>
+            </main>
+            <div class="painelBotao">
+                <button id="botaoInteresse" class="botao">Tenho interrese em...</button>
+                <button class="botao">Adicionar seção</button>
+                <button class="botao">Mais</button>
+            </div>
+        </article>
+        <article id="blocoFormacoes">
+            <div id="experiencia" class="blocoPrincipal">
+                <h2>Experiência</h2>
+                <div id="experienciaUm" class="blocoSecundario">
+                    <figure class="expImagem">
+                        <img src="./assets/estacio.jpg" alt="Imagem da instituição">
+                    </figure>
+                    <div class="descricao">
+                        <h3>Desenvolvedor Front-end</h3>
+                        <p>Freelancer</p>
+                        <span> sep. 2021 - o momento</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="formacaoAcademica" class="blocoPrincipal">
+                <h2>Formação Academica</h2>
+
+                <div id="estudoUm" class="blocoSecundario">
+                    <figure class="expImagem">
+                        <img src="./assets/letsCode.png" alt="Imagem da instituição">
+                    </figure>
+                    <div class="descricao">
+                        <h3>Let's Code</h3>
+                        <p>Full-stack</p>
+                        <span>2021 - 2022</span>
+                    </div>
+                </div>
+
+                <div id="estudoDois" class="blocoSecundario">
+                    <figure class="expImagem">
+                        <img src="./assets/estacio.jpg" alt="Imagem da instituição">
+                    </figure>
+                    <div class="descricao">
+                        <h3>Estácio</h3>
+                        <p>Curso Superior tecnologia (CTS), Jogos Digitais</p>
+                        <span>2020 - 2022</span>
+                    </div>
+                </div>
+
+                <div id="estudoTres" class="blocoSecundario">
+                    <figure class="expImagem">
+                        <img src="./assets/logoEte.png" alt="Imagem da instituição" >
+                    </figure>
+                    <div class="descricao">
+                        <h3>ETE - Miguel batista</h3>
+                        <p>Curso técnico integral, comunicação visual</p>
+                        <span>2016 - 2018</span>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+    </section>
+</body>
+</html>
